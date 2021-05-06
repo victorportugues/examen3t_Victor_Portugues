@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Examen 3t</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora de medias</h1>
+    </header>
+    <main>
+        <div id="origen">
+            <form id="origen_form">
+                <label for="programacion">Programación</label>
+                <input type="number" name="programacion" id="programacion">
+                <label for="bases">Bases de datos</label>
+                <input type="number" name="bases" id="bases">
+                <label for="entornos">Entornos de desarrollo</label>
+                <input type="number" name="entornos" id="entornos">
+                <label for="lenguajes">Lenguajes de marcas</label>
+                <input type="number" name="lenguajes" id="lenguajes">
+                <button onclick="return calcularMedia();" id="boton">Calcular</button>
+            </form>
+        </div>
+        <div id="destino">
+            <form id="destino_form">
+                <label for="media">Media</label>
+                <input type="number" name="media" id="media" readonly>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div id="pieizq">
+            <p>Un producto realizado por Víctor Portugués</p>
+            <p>Dentro del módulo LLMM</p>
+        </div>
+        <div id="pieder">
+            <p>Dirección: Carrer de Dolores Ibárruri, 32</p>
+            <p>46920 Mislata, Valencia</p>
+        </div>
+    </footer>
+    <script src="./js/app.js"></script>
+</body>
+</html>

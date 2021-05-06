@@ -1,0 +1,53 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    background-color: rgb(254, 254, 191);
+}
+input{
+    display: block;
+    width: 590px;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(177, 177, 177);
+    font-size: 20px;
+}
+#origen, #destino{
+    border: 1px solid black;
+    width: 600px;
+    height: 420px;
+    margin: 20px;
+    padding: 20px;
+    float: left;
+    background-color: rgb(228, 228, 228);
+}
+#origen{
+    margin-left: 100px;
+}
+#destino input{
+    background-color: rgb(218, 218, 218);
+}
+footer{
+    clear: both;
+    border-top: 4px solid red;
+    background-color: orange;
+}
+#pieizq, #pieder{
+    width: 600px;
+    margin: 20px;
+    margin-top: 0px;
+    padding: 20px;
+    display: inline-block;
+}
+#pieizq{
+    margin-left: 100px;
+}
+#boton{
+    background-color: rgb(50, 50, 255);
+    color: white;
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+    font-size: 16px;
+}
