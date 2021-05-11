@@ -5,7 +5,7 @@ body{
 }
 input{
     display: block;
-    width: 590px;
+    width: 490px;
     height: 40px;
     margin-bottom: 20px;
     margin-top: 10px;
@@ -15,7 +15,7 @@ input{
 }
 #origen, #destino{
     border: 1px solid black;
-    width: 600px;
+    width: 500px;
     height: 420px;
     margin: 20px;
     padding: 20px;
@@ -34,7 +34,7 @@ footer{
     background-color: orange;
 }
 #pieizq, #pieder{
-    width: 600px;
+    width: 500px;
     margin: 20px;
     margin-top: 0px;
     padding: 20px;
